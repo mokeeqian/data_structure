@@ -13,7 +13,7 @@ typedef struct SeqList
     // dataType *data;
     dataType data[listMaxLen];
 }SeqList;
-// 单链表
+// 单链表，带头节点
 typedef struct linkNode
 {
     dataType val;
