@@ -3,6 +3,8 @@
         "stdio.h": "c",
         "iostream": "cpp",
         "string": "cpp",
-        "basic_struct.h": "c"
+        "basic_struct.h": "c",
+        "cstdio": "c",
+        "stdlib.h": "c"
     }
 }
