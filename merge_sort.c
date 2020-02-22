@@ -28,14 +28,14 @@ void merge( int A[], int low, int mid, int high, int tmp[] ) {
 }
 
 void mergeSort(int A[], int low, int high, int tmp[]) {
-    if( low == high )
-        return;
-    // if ( low < high ) {
+    // if( low == high )
+        // return;
+    if ( low < high ) {
         int mid = low + (high-low) / 2;
         mergeSort(A, low, mid, tmp);
         mergeSort(A, mid+1, high, tmp);
         merge(A, low, mid, high, tmp);
-    // }
+    }
 }
 
 int main(int argc, char const *argv[])

@@ -5,6 +5,8 @@
         "string": "cpp",
         "basic_struct.h": "c",
         "cstdio": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "stdc++.h": "c",
+        "queue": "c"
     }
 }
