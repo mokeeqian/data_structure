@@ -1,5 +1,9 @@
 #include <stdio.h>
 /**
+ * 二路归并排序，mooc版本
+ */ 
+
+/**
  * A[low ... mid]有序, A[mid+1 ... high]有序,合并前后两个部分为新的有序表
  */
 void merge( int A[], int low, int mid, int high, int tmp[] ) {
@@ -27,6 +31,9 @@ void merge( int A[], int low, int mid, int high, int tmp[] ) {
         A[low+i] = tmp[i];              // 复制到low low+1 ...
 }
 
+/**
+ *  对A进行二路归并 
+ */
 void mergeSort(int A[], int low, int high, int tmp[]) {
     // if( low == high )
         // return;
