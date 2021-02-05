@@ -8,14 +8,14 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "输入程序名称，例如 ${workspaceFolder}/a.exe",
+            "program": "${workspaceFolder}/a.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "/path/to/gdb",
+            "miDebuggerPath": "C:\\Program Files\\MinGW\\bin\\gdb",
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",

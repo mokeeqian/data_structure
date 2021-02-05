@@ -10,10 +10,20 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "\"C:/Program Files (x86)/MinGW/bin/gcc.exe\"",
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "${default}"
+            "compilerArgs": [],
+            "intelliSenseModeIsExplicit": true,
+            "cStandardIsExplicit": true,
+            "cppStandardIsExplicit": true,
+            "compilerPathIsExplicit": true,
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
         },
         {
             "name": "Win64",
@@ -25,7 +35,7 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:\\Program Files (x86)\\MinGW\\bin\\gcc.exe",
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "clang-x86"
